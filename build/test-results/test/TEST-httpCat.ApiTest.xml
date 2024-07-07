@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="httpCat.ApiTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-07-07T17:36:04" hostname="WIN-816FLNJSS5S" time="1.472">
+  <properties/>
+  <testcase name="getStatus200()" classname="httpCat.ApiTest" time="0.833"/>
+  <testcase name="getStatus400()" classname="httpCat.ApiTest" time="0.332"/>
+  <testcase name="getStatus404()" classname="httpCat.ApiTest" time="0.133"/>
+  <testcase name="getStatus500()" classname="httpCat.ApiTest" time="0.171"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

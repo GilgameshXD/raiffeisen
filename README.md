@@ -37,8 +37,13 @@ cd E:\raiffeisen
 
 3. Запустите тесты с помощью Gradle. В командной строке выполните команду:
 ```
-gradle test
+./gradlew test --tests "duckduckgo.KeyWordSearchTest"
 ```
+для первого теста и
+```
+./gradlew test --tests "httpCat.ApiTest"
+```
+для второго соответственно
 
 ### На macOS и Linux:
 
@@ -54,7 +59,11 @@ cd E:\raiffeisen
 
 3. Запустите тесты с помощью Gradle. В командной строке выполните команду:
 ```
-./gradlew test
+./gradlew test --tests "duckduckgo.KeyWordSearchTest"
+```
+для первого теста и
+```
+./gradlew test --tests "httpCat.ApiTest"
 ```
 
 ## Запуск теста(альтернативный способ)
